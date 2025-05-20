@@ -3,6 +3,22 @@
 Per usare Git in modo efficace, non basta memorizzare comandi: è essenziale **capire cosa succede dietro le quinte**. Git è uno strumento potente, e padroneggiarlo significa sviluppare una vera **mentalità da “versionamento”**.
 
 ---
+- [2.1 Repository](#21-repository)  
+  - [2.1.1 Repository Locale](#211-repository-locale)  
+  - [2.1.2 Repository Remota](#212-repository-remota)  
+- [2.2 Commit, Stage, Stash](#22-commit-stage-stash)  
+  - [2.2.1 Commit](#221-commit)  
+  - [2.2.2 Stage](#222-stage)  
+  - [2.2.3 Stash](#223-stash)  
+- [2.3 Branch, Merge, Rebase](#23-branch-merge-rebase)  
+  - [2.3.1 Branch](#231-branch)  
+  - [2.3.2 Merge](#232-merge)  
+  - [2.3.3 Rebase](#233-rebase)  
+  - [2.3.4 Merge vs Rebase](#234-merge-vs-rebase)  
+- [2.4 Utilities](#24-utilities)  
+  - [2.4.1 Tag](#241-tag)  
+  - [2.4.2 HEAD](#242-head)  
+- [2.5 Working Directory, Staging Area e Repository](#25-working-directory-staging-area-e-repository)
 
 ---
 

@@ -5,7 +5,16 @@ Lavorando con Git, è inevitabile imbattersi in errori o situazioni inaspettate:
 Fortunatamente, Git fornisce strumenti potenti per gestire queste situazioni e ripristinare uno stato coerente del repository. 
 
 ---
-
+- [6.1 Undo / Rollback](#61-undo--rollback)
+  - [6.1.1 Restore](#611-restore)
+  - [6.1.2 Checkout](#612-checkout)
+  - [6.1.3 Reset](#613-reset)
+- [6.2 Ripristino File](#62-ripristino-file)
+- [6.3 Ripristinare Commit Precedenti](#63-ripristinare-commit-precedenti)
+- [6.4 Merge Conflict Resolution](#64-merge-conflict-resolution)
+- [6.5 Reflog e Cherry-pick](#65-reflog-e-cherry-pick)
+  - [6.5.1 Reflog](#651-reflog)
+  - [6.5.2 Cherry-pick](#652-cherry-pick)
 ---
 
 ## 6.1 Undo / Rollback

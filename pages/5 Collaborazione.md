@@ -5,7 +5,19 @@ Nel mondo dello sviluppo software moderno, la collaborazione efficace tra membri
 Git, insieme a piattaforme come GitHub e GitLab, rappresenta lo strumento standard per la gestione del codice sorgente e la collaborazione distribuita. 
 
 ---
-
+- [5.1 Remote Repository](#51-remote-repository)
+  - [5.1.1 Elenco delle Repository](#511-elenco-delle-repository)
+  - [5.1.2 Fetch](#512-fetch)
+  - [5.1.3 Pull](#513-pull)
+  - [5.1.4 Push](#514-push)
+- [5.2 Fork & Pull Request](#52-fork--pull-request)
+  - [5.2.1 Fork](#521-fork)
+  - [5.2.2 Pull Request / Merge Request](#522-pull-request--merge-request-github--gitlab)
+  - [5.2.3 Best Practice](#523-best-practice)
+- [5.3 Code Review](#53-code-review)
+- [5.4 Conflict Management](#54-conflict-management)
+- [5.5 Branch Protection](#55-branch-protection)
+  - [5.5.1 Best Practice](#551-best-practice)
 ---
 
 ## 5.1 Remote Repository

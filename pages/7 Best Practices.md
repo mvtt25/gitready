@@ -3,7 +3,17 @@
 Una gestione efficace del controllo versione è fondamentale per garantire la qualità del codice, la collaborazione tra team e la facilità di manutenzione di un progetto. Seguendo alcune best practice nell’uso di Git (o di altri sistemi di versionamento), è possibile migliorare la tracciabilità delle modifiche, ridurre i conflitti e mantenere un flusso di lavoro chiaro e sostenibile. 
 
 ---
-
+- [7.1 Commit](#71-commit)
+  - [7.1.1 Cosa Evitare?](#711-cosa-evitare)
+  - [7.1.2 Benefici](#712-benefici)
+- [7.2 Branch Significativi](#72-branch-significativi)
+  - [7.2.1 Cosa consigliare?](#721-cosa-consigliare)
+- [7.3 Main Always Deployable](#73-main-always-deployable)
+- [7.4 Tag per Release](#74-tag-per-release)
+- [7.5 Pull Frequenti e Push Programmati](#75-pull-frequenti-e-push-programmati)
+- [7.6 .gitignore](#76-gitignore)
+- [7.7 Merge tramite Pull Request](#77-merge-tramite-pull-request)
+- [7.8 Documentazioni](#78-documentazioni)
 ---
 
 ## 7.1 Commit

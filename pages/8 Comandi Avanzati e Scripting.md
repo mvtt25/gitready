@@ -3,7 +3,15 @@
 Dopo aver acquisito familiarità con i comandi di base di Git, è utile conoscere alcune funzionalità avanzate che permettono di automatizzare i processi, migliorare il flusso di lavoro e gestire progetti complessi. 
 
 ---
-
+- [8.1 Git Hooks](#81-git-hooks)
+  - [8.1.1 Come si Configura?](#811-come-si-configura)
+- [8.2 Rewriting History](#82-rewriting-history)
+- [8.3 Advanced Git Stash](#83-advanced-git-stash)
+- [8.4 Submodule & Subtree](#84-submodule--subtree)
+  - [8.4.1 Submodule](#841-submodule)
+  - [8.4.2 Subtree](#842-subtree)
+- [8.5 Trovare Bug tra i Commit](#85-trovare-bug-tra-i-commit)
+- [8.6 Custom Alias](#86-custom-alias)
 ---
 
 ## 8.1 Git Hooks

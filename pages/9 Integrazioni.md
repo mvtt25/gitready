@@ -3,7 +3,10 @@
 Git, in quanto sistema di controllo di versione distribuito, diventa ancora più potente ed efficiente quando integrato con strumenti complementari. Queste integrazioni semplificano i flussi di lavoro, migliorano la collaborazione tra team e automatizzano molti processi di sviluppo.
 
 ---
-
+- [9.1 VS Code](#91-vs-code)
+- [9.2 Notion (a pagamento)](#92-notion-a-pagamento)
+- [9.3 GitLab CI/CD](#93-gitlab-cicd)
+- [9.4 GitHub Projects e Wiki](#94-github-projects-e-wiki)
 ---
 
 ## 9.1 VS Code

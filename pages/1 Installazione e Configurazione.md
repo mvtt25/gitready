@@ -1,7 +1,17 @@
 # 1. Installazione e Configurazione
 
 ---
-
+- [1.1 Come installare Git](#11-come-installare-git)  
+  - [Windows](#windows-sconsigliato)  
+  - [macOS](#macos)  
+  - [Linux](#linux)  
+- [1.2 Configurazione Iniziale](#12-configurazione-iniziale)  
+  - [1.2.1 Nome Utente & E-mail](#121-nome-utente--e-mail)  
+  - [1.2.2 Utilities](#122-utilities)  
+- [1.3 SSH vs HTTPS](#13-ssh-vs-https)  
+  - [1.3.1 HTTPS - Semplice, ma scomodo](#131-https---semplice-ma-scomodo)  
+  - [1.3.2 SSH - Avanzato, ma efficiente](#132-ssh---avanzato-ma-efficiente)  
+  - [1.3.3 Configurazione con SSH](#133-configurazione-con-ssh)  
 ---
 
 ## 1.1 Come installare Git

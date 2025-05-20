@@ -3,7 +3,12 @@
 In questa sezione vedremo i comandi fondamentali per iniziare a usare Git nella pratica quotidiana. Si tratta delle operazioni essenziali per creare un repository, gestire i file, salvare le modifiche, e navigare nella cronologia del progetto.
 
 ---
-
+- [3.1 Crea una Repository](#31-crea-una-repository)
+- [3.2 Clona una Repository](#32-clona-una-repository)
+- [3.3 Aggiungere file](#33-aggiungere-file)
+- [3.4 Creare Commit](#34-creare-commit)
+  - [3.4.1 Best Practices](#341-best-practices)
+- [3.5 Ignorare File](#35-ignorare-file)
 ---
 
 ## 3.1 Crea una Repository

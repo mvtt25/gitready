@@ -3,7 +3,11 @@
 Per approfondire l’uso di Git e migliorare le proprie competenze, è importante avere a disposizione una serie di risorse affidabili e ben strutturate. Che tu sia un principiante o uno sviluppatore esperto, queste fonti possono aiutarti a risolvere problemi, apprendere nuove funzionalità e lavorare in modo più efficiente.
 
 ---
-
+- [10.1 Cheat Sheet](#101-cheat-sheet)
+- [10.2 Documentazione Ufficiale](#102-documentazione-ufficiale)
+- [10.3 Libri Consigliati](#103-libri-consigliati)
+- [10.4 Tutorial](#104-tutorial)
+- [10.5 Troubleshooting](#105-troubleshooting)
 ---
 
 ## 10. 1 Cheat Sheet
