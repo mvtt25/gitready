@@ -1,6 +1,5 @@
 # 1. Installazione e Configurazione
 
----
 - [1.1 Come installare Git](#11-come-installare-git)  
   - [Windows](#windows-sconsigliato)  
   - [macOS](#macos)  
@@ -12,7 +11,7 @@
   - [1.3.1 HTTPS - Semplice, ma scomodo](#131-https---semplice-ma-scomodo)  
   - [1.3.2 SSH - Avanzato, ma efficiente](#132-ssh---avanzato-ma-efficiente)  
   - [1.3.3 Configurazione con SSH](#133-configurazione-con-ssh)  
----
+
 
 ## 1.1 Come installare Git
 
@@ -51,7 +50,6 @@ Puoi scaricare Git in diversi sistemi operativi :
         ```
         
 
----
 
 ## 1.2 Configurazione Iniziale
 
@@ -95,7 +93,6 @@ git config --global user.email "name@email.com"
     ```
     
 
----
 
 ## 1.3 SSH vs HTTPS
 
@@ -167,4 +164,4 @@ Quando interagisci con un repository remoto (es. GitHub, GitLab, Bitbucket), Git
     ```
     
 
----
+

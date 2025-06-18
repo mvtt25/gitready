@@ -2,7 +2,7 @@
 
 Dopo aver acquisito familiarità con i comandi di base di Git, è utile conoscere alcune funzionalità avanzate che permettono di automatizzare i processi, migliorare il flusso di lavoro e gestire progetti complessi. 
 
----
+
 - [8.1 Git Hooks](#81-git-hooks)
   - [8.1.1 Come si Configura?](#811-come-si-configura)
 - [8.2 Rewriting History](#82-rewriting-history)
@@ -12,7 +12,7 @@ Dopo aver acquisito familiarità con i comandi di base di Git, è utile conoscer
   - [8.4.2 Subtree](#842-subtree)
 - [8.5 Trovare Bug tra i Commit](#85-trovare-bug-tra-i-commit)
 - [8.6 Custom Alias](#86-custom-alias)
----
+
 
 ## 8.1 Git Hooks
 
@@ -32,7 +32,7 @@ Alcuni esempi sono :
 3. Rendi lo script eseguibile
     1. `chmod +x .git/hooks/pre-commit` 
 
----
+
 
 ## 8.2 Rewriting History
 
@@ -47,14 +47,11 @@ Il comando `git rebase -i` (rebase interattivo), permette di riscrivere la crono
 git rebase -i HEAD~3
 ```
 
-<aside>
-⚠️
+>
+> ⚠️ Non riscrivere la storia pubblica di un branch già condiviso, per evitare conflitti con altri collaboratori.
+> 
 
-Non riscrivere la storia pubblica di un branch già condiviso, per evitare conflitti con altri collaboratori.
 
-</aside>
-
----
 
 ## 8.3 Advanced Git Stash
 
@@ -84,12 +81,9 @@ Si usano quando un progetto dipende da un’altra repository Git, e puoi gestirl
     git submodule update --init
     ```
     
-    <aside>
-    ⚠️
-    
-    Richiede attenzione nella sincronizzazione e può complicare i flussi CI/CD.
-    
-    </aside>
+    >
+    >  ⚠️ Richiede attenzione nella sincronizzazione e può complicare i flussi CI/CD.
+    >
     
 
 ### 8.4.2 Subtree
@@ -103,8 +97,6 @@ Si usano quando un progetto dipende da un’altra repository Git, e puoi gestirl
     git subtree pull --prefix=<cartella> <repo> <branch> --squash
     ```
     
-
----
 
 ## 8.5 Trovare Bug tra i Commit
 
@@ -120,7 +112,6 @@ Git esegue il checkout a commit intermedi. A ogni passo, confermi se il commit �
 
 Si possono abbinare script con test automatici all’interno del comando stesso.
 
----
 
 ## 8.6 Custom Alias
 

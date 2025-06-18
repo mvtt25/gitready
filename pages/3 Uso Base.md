@@ -2,14 +2,14 @@
 
 In questa sezione vedremo i comandi fondamentali per iniziare a usare Git nella pratica quotidiana. Si tratta delle operazioni essenziali per creare un repository, gestire i file, salvare le modifiche, e navigare nella cronologia del progetto.
 
----
+
 - [3.1 Crea una Repository](#31-crea-una-repository)
 - [3.2 Clona una Repository](#32-clona-una-repository)
 - [3.3 Aggiungere file](#33-aggiungere-file)
 - [3.4 Creare Commit](#34-creare-commit)
   - [3.4.1 Best Practices](#341-best-practices)
 - [3.5 Ignorare File](#35-ignorare-file)
----
+
 
 ## 3.1 Crea una Repository
 
@@ -22,7 +22,7 @@ git init
 - Crea una nuova **cartella `.git`** nella directory corrente, che contiene tutta la cronologia del progetto.
 - Si usa quando vuoi iniziare a tracciare un progetto esistente con Git.
 
----
+
 
 ## 3.2 Clona una Repository
 
@@ -40,8 +40,6 @@ git clone https://github.com/utente/repository.git
     git clone https://github.com/utente/repository.git {directory_cartella}
     ```
     
-
----
 
 ## 3.3 Aggiungere file
 
@@ -66,7 +64,6 @@ git add nomefile.txt # Usare . per aggiungere tutti i file nella directory
     ```
     
 
----
 
 ## 3.4 Creare Commit
 
@@ -107,7 +104,6 @@ git commit -m "Messaggio"
 9. Evita file inutili o temporanei
     1. Usa il file `.gitignore` 
 
----
 
 ## 3.5 Ignorare File
 

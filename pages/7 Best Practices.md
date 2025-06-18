@@ -2,7 +2,6 @@
 
 Una gestione efficace del controllo versione è fondamentale per garantire la qualità del codice, la collaborazione tra team e la facilità di manutenzione di un progetto. Seguendo alcune best practice nell’uso di Git (o di altri sistemi di versionamento), è possibile migliorare la tracciabilità delle modifiche, ridurre i conflitti e mantenere un flusso di lavoro chiaro e sostenibile. 
 
----
 - [7.1 Commit](#71-commit)
   - [7.1.1 Cosa Evitare?](#711-cosa-evitare)
   - [7.1.2 Benefici](#712-benefici)
@@ -14,7 +13,6 @@ Una gestione efficace del controllo versione è fondamentale per garantire la qu
 - [7.6 .gitignore](#76-gitignore)
 - [7.7 Merge tramite Pull Request](#77-merge-tramite-pull-request)
 - [7.8 Documentazioni](#78-documentazioni)
----
 
 ## 7.1 Commit
 
@@ -41,7 +39,6 @@ Una gestione efficace del controllo versione è fondamentale per garantire la qu
 - Agevolare Code Review
 - Rendere il progetto più mantenibile
 
----
 
 ## 7.2 Branch Significativi
 
@@ -57,15 +54,14 @@ Una gestione efficace del controllo versione è fondamentale per garantire la qu
 - Branch per ogni Attività / Task
 - Cancellare il Branch dopo il Merge → Solo se non si usa più
 
----
 
 ## 7.3 Main Always Deployable
 
-- Obiettivo → Branch Principale sempre attivo e stabile, pronto per la messa in produzione
+- **Obiettivo →** Branch Principale sempre attivo e stabile, pronto per la messa in produzione
 - **Formato Consigliato →** Integrazione tramite pull request + Niente sviluppo su `main`
 - **Vantaggi →** Deploy affidabili in qualsiasi momento + Minori Rischi in Produzione
 
----
+
 
 ## 7.4 Tag per Release
 
@@ -73,7 +69,6 @@ Una gestione efficace del controllo versione è fondamentale per garantire la qu
 - **Formato Consigliato →** `v1.0.0` ,`v2.1.3` ,`v3.0.0-beta`
 - **Vantaggi →** Navigazione semplice tra versioni + Possibilità di Rollback Rapidi
 
----
 
 ## 7.5 Pull Frequenti e Push Programmati
 
@@ -82,7 +77,6 @@ Una gestione efficace del controllo versione è fondamentale per garantire la qu
 - **Cosa Evitare →** Lunghe Sessioni e Commit poco significativi
 - **Vantaggi →** Riduzione dei Conflitti in fase di Merge + Lavoro di Squadra
 
----
 
 ## 7.6 .gitignore
 
@@ -91,7 +85,7 @@ Una gestione efficace del controllo versione è fondamentale per garantire la qu
 - **Pattern Consigliati → `node_modules/` ,`.env` ,`*.log` ,`.DS_Store`**
 - **Vantaggi →** Repository pulita e leggera + Meno problemi di Sicurezza e Conflitti
 
----
+
 
 ## 7.7 Merge tramite Pull Request
 
@@ -100,7 +94,7 @@ Una gestione efficace del controllo versione è fondamentale per garantire la qu
 - **Code Review →** Assicurati che tutti i test passino prima di fare il merge
 - **Vantaggi →** Code Quality + Condivisione Know-How + Riduzione Bug e Regressioni
 
----
+
 
 ## 7.8 Documentazioni
 
@@ -112,4 +106,3 @@ Una gestione efficace del controllo versione è fondamentale per garantire la qu
 
 **Piattaforme →** GitBook, Notion
 
----

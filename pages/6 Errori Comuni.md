@@ -4,7 +4,7 @@ Lavorando con Git, è inevitabile imbattersi in errori o situazioni inaspettate:
 
 Fortunatamente, Git fornisce strumenti potenti per gestire queste situazioni e ripristinare uno stato coerente del repository. 
 
----
+
 - [6.1 Undo / Rollback](#61-undo--rollback)
   - [6.1.1 Restore](#611-restore)
   - [6.1.2 Checkout](#612-checkout)
@@ -15,7 +15,7 @@ Fortunatamente, Git fornisce strumenti potenti per gestire queste situazioni e r
 - [6.5 Reflog e Cherry-pick](#65-reflog-e-cherry-pick)
   - [6.5.1 Reflog](#651-reflog)
   - [6.5.2 Cherry-pick](#652-cherry-pick)
----
+
 
 ## 6.1 Undo / Rollback
 
@@ -69,8 +69,6 @@ Se il file era stato già tracciato ma eliminato e committato, puoi recuperarlo 
     ```
     
 
----
-
 ## 6.3 Ripristinare Commit Precedenti
 
 Se vuoi tornare ad uno stato precedente, hai due metodi : 
@@ -80,9 +78,9 @@ Se vuoi tornare ad uno stato precedente, hai due metodi :
     ```bash
     git reset --hard <commit>
     ```
-    
-    ⚠️ WARNING → cancella le modifiche non salvate. Mai usare su branch condivisi
-    
+    > 
+    > ⚠️ **WARNING →** Cancella le modifiche non salvate. Mai usare su branch condivisi
+    > 
 - Per ambienti condivisi, usa :
     
     ```bash
@@ -92,7 +90,6 @@ Se vuoi tornare ad uno stato precedente, hai due metodi :
     Crea un nuovo commit che “annulla” le modifiche
     
 
----
 
 ## 6.4 Merge Conflict Resolution
 
@@ -104,7 +101,7 @@ I conflitti di merge si verificano quando due rami modificano le stesse linee di
 4. Aggiungi i file risolti → `git add nomefile` 
 5. Completa il merge → `git commit` 
 
----
+
 
 ## 6.5 Reflog e Cherry-pick
 
@@ -135,4 +132,3 @@ Viene utilizzato quando:
 git cherry-pick <commit>
 ```
 
----

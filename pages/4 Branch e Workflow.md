@@ -2,7 +2,6 @@
 
 Uno dei punti di forza di Git è il supporto avanzato al *branching*, che consente ai team di lavoro di sviluppare funzionalità, correggere bug o sperimentare in ambienti isolati. I *branch* (rami) permettono di lavorare in parallelo senza compromettere la stabilità del codice principale. Una gestione efficace dei branch, insieme alla conoscenza dei principali flussi di lavoro collaborativi, è fondamentale per lo sviluppo software moderno.
 
----
 - [4.1 Branch](#41-branch)
   - [4.1.1 Creazione](#411-creazione)
   - [4.1.2 Passaggio](#412-passaggio)
@@ -17,7 +16,7 @@ Uno dei punti di forza di Git è il supporto avanzato al *branching*, che conse
   - [4.4.1 Git Flow](#441-git-flow)
   - [4.4.2 GitHub Flow](#442-github-flow)
   - [4.4.3 Trunk Based Development](#443-trunk-based-development)
----
+
 
 ## 4.1 Branch
 
@@ -55,8 +54,6 @@ Puoi visualizzare l’elenco dei branch, mediante il comando
 git branch
 ```
 
----
-
 ## 4.2 Merge
 
 Il *merge* è l’operazione con cui si unisce il contenuto di due branch. Può avvenire in diversi modi, che vediamo di seguito.
@@ -86,7 +83,6 @@ git add file-conflittuali
 git commit
 ```
 
----
 
 ## 4.3 Rebase
 
@@ -110,7 +106,6 @@ In pratica, è l’alternativa al Merge.
 | Mantiene traccia della divergenza | Crea una cronologia lineare |
 | Più sicuro su Branch Condivisi | Migliore leggibilità della Storia |
 
----
 
 ## 4.4 Common Workflow
 
@@ -147,4 +142,3 @@ Modello minimalista che incentiva l’Integrazione Continua.
 - **Vantaggi →** Rilasci Rapidi, cronologia semplice
 - **Svantaggi →** Richiede test automatici robusti e team disciplinati
 
----

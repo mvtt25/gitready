@@ -1,6 +1,5 @@
 # Git Ready
 
----
 
 ## 💡| Introduzione
 
@@ -35,4 +34,3 @@ Git è come una "macchina del tempo" per i tuoi progetti di programmazione. Ti c
 
 [10. Risorse Utili](pages/10%20Risorse%20Utili.md)
 
----

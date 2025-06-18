@@ -2,7 +2,7 @@
 
 Per usare Git in modo efficace, non basta memorizzare comandi: è essenziale **capire cosa succede dietro le quinte**. Git è uno strumento potente, e padroneggiarlo significa sviluppare una vera **mentalità da “versionamento”**.
 
----
+
 - [2.1 Repository](#21-repository)  
   - [2.1.1 Repository Locale](#211-repository-locale)  
   - [2.1.2 Repository Remota](#212-repository-remota)  
@@ -20,7 +20,7 @@ Per usare Git in modo efficace, non basta memorizzare comandi: è essenziale **
   - [2.4.2 HEAD](#242-head)  
 - [2.5 Working Directory, Staging Area e Repository](#25-working-directory-staging-area-e-repository)
 
----
+
 
 ## 2.1 Repository
 
@@ -47,14 +47,9 @@ git branch
 
 È una copia condivisa del progetto, ospitata su una piattaforma come **GitHub**, **GitLab**, **Bitbucket**. Serve per la collaborazione tra più sviluppatori.
 
-<aside>
-💡
-
-**Repository Locale → Commit → Repository Remoto → Pull** 
-
-</aside>
-
----
+>
+>💡 **Repository Locale → Commit → Repository Remoto → Pull** 
+>
 
 ## 2.2 Commit, Stage, Stash
 
@@ -108,7 +103,6 @@ git stash list               # Per Vedere la lista degli Stash
 git stash apply stash@{index_stash}    # Per applicare uno specifico Stash
 ```
 
----
 
 ## 2.3 Branch, Merge, Rebase
 
@@ -129,12 +123,9 @@ git branch feature/nuova-funzionalità
 git switch feature/nuova-funzionalità
 ```
 
-<aside>
-💡
-
-Branchare ti permette di lavorare in parallelo **senza rischiare** di rompere il codice stabile.
-
-</aside>
+> 
+> 💡 Branchare ti permette di lavorare in parallelo **senza rischiare** di rompere il codice stabile.
+>
 
 ### 2.3.2 Merge
 
@@ -166,19 +157,15 @@ Vantaggi:
 - Storia più lineare
 - Nessun commit di merge
 
-<aside>
-⚠️
-
-Non fare il rebase di repository pubbliche
-
-</aside>
+>
+>   ⚠️ Non fare il rebase di repository pubbliche
+>
 
 ### 2.3.4 Merge vs Rebase
 
 - `rebase` per mantenere la tua storia pulita *prima* di fare `merge` in `main`
 - `merge` per preservare la cronologia completa in ambienti collaborativi
 
----
 
 ## 2.4 Utilities
 
@@ -209,7 +196,7 @@ Ogni volta che ti sposti di branch (`git switch`), HEAD cambia.
 git switch main   # HEAD → main
 ```
 
----
+
 
 ## 2.5 Working Directory, Staging Area e Repository
 
@@ -227,4 +214,3 @@ git commit -m "Add Minchiate"      # Aggiungi alla Repository Locale
 git push                           # Aggiungi alla Repository Remota
 ```
 
----

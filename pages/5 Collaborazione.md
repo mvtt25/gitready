@@ -4,7 +4,6 @@ Nel mondo dello sviluppo software moderno, la collaborazione efficace tra membri
 
 Git, insieme a piattaforme come GitHub e GitLab, rappresenta lo strumento standard per la gestione del codice sorgente e la collaborazione distribuita. 
 
----
 - [5.1 Remote Repository](#51-remote-repository)
   - [5.1.1 Elenco delle Repository](#511-elenco-delle-repository)
   - [5.1.2 Fetch](#512-fetch)
@@ -18,7 +17,6 @@ Git, insieme a piattaforme come GitHub e GitLab, rappresenta lo strumento standa
 - [5.4 Conflict Management](#54-conflict-management)
 - [5.5 Branch Protection](#55-branch-protection)
   - [5.5.1 Best Practice](#551-best-practice)
----
 
 ## 5.1 Remote Repository
 
@@ -56,7 +54,6 @@ Invia i Commit dal Branch Locale al corrispondente Branch Remoto
 git push
 ```
 
----
 
 ## 5.2 Fork & Pull Request
 
@@ -76,7 +73,6 @@ Sono delle richieste formali per integrare modifiche da un Branch (o Fork) a un 
 
 - Bisogna scrivere *Pull Request* chiare e documentate, con descrizioni dei cambiamenti e motivazioni.
 
----
 
 ## 5.3 Code Review
 
@@ -86,7 +82,6 @@ La *Code Review* è un processo in cui altri membri del team esaminano il codice
 - Permette di rilevare Bug e migliorare la qualità del codice
 - Apertura ai commenti costruttivi e al Feedback
 
----
 
 ## 5.4 Conflict Management
 
@@ -98,7 +93,6 @@ Per gestirli :
 - Usare frequentemente operazioni come `git pull` per ridurre la probabilità di conflitti
 - Tenere d’occhio i file conflitti segnalati da Git
 
----
 
 ## 5.5 Branch Protection
 
@@ -111,4 +105,3 @@ Per evitare modifiche non controllare, si possono applicare regole di protezione
 
 - Proteggere sempre i branch principali come il `main` e usare branch secondari per features o fix.
 
----

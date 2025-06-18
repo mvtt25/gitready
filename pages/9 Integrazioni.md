@@ -2,12 +2,11 @@
 
 Git, in quanto sistema di controllo di versione distribuito, diventa ancora più potente ed efficiente quando integrato con strumenti complementari. Queste integrazioni semplificano i flussi di lavoro, migliorano la collaborazione tra team e automatizzano molti processi di sviluppo.
 
----
 - [9.1 VS Code](#91-vs-code)
 - [9.2 Notion (a pagamento)](#92-notion-a-pagamento)
 - [9.3 GitLab CI/CD](#93-gitlab-cicd)
 - [9.4 GitHub Projects e Wiki](#94-github-projects-e-wiki)
----
+
 
 ## 9.1 VS Code
 
@@ -15,7 +14,6 @@ Git, in quanto sistema di controllo di versione distribuito, diventa ancora più
 - **Diff e merge visuali →** strumenti visivi per confrontare versioni dei file e risolvere conflitti.
 - **Estensioni avanzate →** estensioni come GitLens forniscono una visualizzazione dettagliata della cronologia dei commit, autore delle modifiche e spiegazioni dei cambiamenti.
 
----
 
 ## 9.2 Notion (a pagamento)
 
@@ -23,7 +21,6 @@ Git, in quanto sistema di controllo di versione distribuito, diventa ancora più
 - **Guide e documentazione →** usare Notion per mantenere guide aggiornate su branching strategy, naming convention, setup ambiente, ecc.
 - **Flussi di lavoro visivi →** rappresentare processi come release flow o cicli di revisione del codice, rendendoli accessibili e condivisibili all'interno del team.
 
----
 
 ## 9.3 GitLab CI/CD
 
@@ -32,7 +29,6 @@ Git, in quanto sistema di controllo di versione distribuito, diventa ancora più
 - **Controlli di qualità →** code formatting, sicurezza e metriche possono essere verificati automaticamente.
 - **Workflow personalizzabili →** definizione di pipeline complesse tramite file YAML (`.github/workflows/` o `.gitlab-ci.yml`).
 
----
 
 ## 9.4 GitHub Projects e Wiki
 
