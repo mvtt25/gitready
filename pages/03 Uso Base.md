@@ -23,7 +23,6 @@ git init
 - Si usa quando vuoi iniziare a tracciare un progetto esistente con Git.
 
 
-
 ## 3.2 Clona una Repository
 
 Per copiare una repository remota sulla directory locale, basterà utilizzare il comando 
@@ -103,6 +102,22 @@ git commit -m "Messaggio"
     1. `git log` o `git show`
 9. Evita file inutili o temporanei
     1. Usa il file `.gitignore` 
+
+### 3.4.2 Tipi Principali
+| Tipo     | Descrizione                                  |
+| -------- | -------------------------------------------- |
+| feat     | Nuova funzionalità                           |
+| fix      | Correzione bug                               |
+| docs     | Documentazione                               |
+| style    | Formattazione, spazi, stile                  |
+| refactor | Modifiche al codice senza impatto funzionale |
+| perf     | Miglioramenti performance                    |
+| test     | Aggiunta o modifica test                     |
+| build    | Build system o dipendenze                    |
+| ci       | Configurazione CI                            |
+| chore    | Altri task di manutenzione                   |
+| revert   | Revert di precedente commit                  |
+
 
 
 ## 3.5 Ignorare File
